@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE = 'https://finsight-YOUR_USERNAME.replit.app/api'
+const BASE = 'https://nirmal178.pythonanywhere.com/api'
 
 /**
  * POST /api/parse
