@@ -1,0 +1,8 @@
+run = "cd backend && pip install -r requirements.txt && PORT=8080 python app.py"
+entrypoint = "backend/app.py"
+
+[packager]
+language = "python3"
+
+[languages.python3]
+version = "3.10"
