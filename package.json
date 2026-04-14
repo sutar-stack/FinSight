@@ -1,0 +1,12 @@
+{
+  "name": "finsight-monorepo",
+  "version": "1.0.0",
+  "description": "FinSight Monorepo - Backend redirection for Replit",
+  "scripts": {
+    "build": "cd backend && pip install -r requirements.txt",
+    "start": "cd backend && python app.py"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
