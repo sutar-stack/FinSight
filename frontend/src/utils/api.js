@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE = import.meta.env.VITE_API_URL || '/api'
+const BASE = 'https://finsight-YOUR_USERNAME.replit.app/api'
 
 /**
  * POST /api/parse
